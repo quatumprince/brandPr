@@ -1,102 +1,88 @@
 "use client";
 import React from "react";
 import { HeroParallax } from "./ui/hero-parallax";
+import { Button } from "./ui/button";
 
 export function HeroParallaxDemo() {
 	return <HeroParallax products={products} />;
 }
 export const products = [
 	{
-		title: "Moonbeam",
-		link: "https://gomoonbeam.com",
-		thumbnail:
-			"https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
+		title: "Bitcoin",
+		link: "#",
+		thumbnail: "/images/Bitcoinc.png",
 	},
 	{
-		title: "Cursor",
-		link: "https://cursor.so",
-		thumbnail:
-			"https://aceternity.com/images/products/thumbnails/new/cursor.png",
+		title: "Coindr",
+		link: "#",
+		thumbnail: "/images/Coindr.png",
 	},
 	{
-		title: "Rogue",
-		link: "https://userogue.com",
-		thumbnail:
-			"https://aceternity.com/images/products/thumbnails/new/rogue.png",
+		title: "Coinfomania",
+		link: "#",
+		thumbnail: "/images/coinfomania.png",
 	},
 
 	{
-		title: "Editorially",
-		link: "https://editorially.org",
-		thumbnail:
-			"https://aceternity.com/images/products/thumbnails/new/editorially.png",
+		title: "Cryptwerk",
+		link: "#",
+		thumbnail: "/images/Cryptwerk.png",
 	},
 	{
-		title: "Editrix AI",
-		link: "https://editrix.ai",
-		thumbnail:
-			"https://aceternity.com/images/products/thumbnails/new/editrix.png",
+		title: "NewsBTC",
+		link: "#",
+		thumbnail: "/images/NewsBTC.png",
 	},
 	{
-		title: "Pixel Perfect",
-		link: "https://app.pixelperfect.quest",
-		thumbnail:
-			"https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
+		title: "YN",
+		link: "#",
+		thumbnail: "/images/YN.png",
 	},
 
 	{
-		title: "Algochurn",
-		link: "https://algochurn.com",
-		thumbnail:
-			"https://aceternity.com/images/products/thumbnails/new/algochurn.png",
+		title: "Cryptometer",
+		link: "#",
+		thumbnail: "/images/Cryptometer.png",
 	},
 	{
-		title: "Aceternity UI",
-		link: "https://ui.aceternity.com",
-		thumbnail:
-			"https://aceternity.com/images/products/thumbnails/new/aceternityui.png",
+		title: "Feendco",
+		link: "#",
+		thumbnail: "/images/feendco.png",
 	},
 	{
-		title: "Tailwind Master Kit",
-		link: "https://tailwindmasterkit.com",
-		thumbnail:
-			"https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
+		title: "Bitcoinharbar",
+		link: "#",
+		thumbnail: "/images/Bitcoinharbar.png",
 	},
 	{
-		title: "SmartBridge",
-		link: "https://smartbridgetech.com",
-		thumbnail:
-			"https://aceternity.com/images/products/thumbnails/new/smartbridge.png",
+		title: "CoinTurk",
+		link: "#",
+		thumbnail: "/images/CoinTurk.png",
 	},
 	{
-		title: "Renderwork Studio",
-		link: "https://renderwork.studio",
-		thumbnail:
-			"https://aceternity.com/images/products/thumbnails/new/renderwork.png",
+		title: "Coinwire",
+		link: "#",
+		thumbnail: "/images/Coinwire.png",
 	},
 
 	{
-		title: "Creme Digital",
-		link: "https://cremedigital.com",
-		thumbnail:
-			"https://aceternity.com/images/products/thumbnails/new/cremedigital.png",
+		title: "CoinWorldStory",
+		link: "#",
+		thumbnail: "/images/CoinWorldStory.png",
 	},
 	{
-		title: "Golden Bells Academy",
-		link: "https://goldenbellsacademy.com",
-		thumbnail:
-			"https://aceternity.com/images/products/thumbnails/new/goldenbellsacademy.png",
+		title: "BitcoinhaCoingabbar",
+		link: "#",
+		thumbnail: "/images/BitcoinhaCoingabbar.png",
 	},
 	{
-		title: "Invoker Labs",
-		link: "https://invoker.lol",
-		thumbnail:
-			"https://aceternity.com/images/products/thumbnails/new/invoker.png",
+		title: "CryptoPoliticain",
+		link: "#",
+		thumbnail: "/images/CryptoPoliticain.png",
 	},
 	{
-		title: "E Free Invoice",
-		link: "https://efreeinvoice.com",
-		thumbnail:
-			"https://aceternity.com/images/products/thumbnails/new/efreeinvoice.png",
+		title: "IcoHolder",
+		link: "#",
+		thumbnail: "/images/icoHolder.png",
 	},
 ];

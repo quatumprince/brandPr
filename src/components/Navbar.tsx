@@ -4,6 +4,7 @@ import { Menu, Package2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import Image from "next/image";
+import { DialogDemo } from "./DialogDemo";
 
 export const description =
 	"An application shell with a header and main content area. The header has a navbar, a search input and and a user nav dropdown. The user nav is toggled by a button with an avatar image.";
@@ -13,7 +14,14 @@ export function Navbar() {
 		<div className="flex w-full flex-col ">
 			<header className="sticky top-0 flex h-20 items-center gap-4 border-b px-4 text-whitemd:px-6">
 				<nav className="hidden flex-col gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-6 max-w-7xl mx-auto justify-between w-full">
-				<Image src="/images/logog-min.png" alt="logo" width={100} height={100} />
+					<Link href={"/"}>
+						<Image
+							src="/images/logog-min.png"
+							alt="logo"
+							width={120}
+							height={120}
+						/>
+					</Link>
 					<div className="flex items-center gap-6 text-lg font-semibold md:text-lg">
 						{/* <Link
 							href="#"
@@ -23,23 +31,18 @@ export function Navbar() {
 							<span className="sr-only">Acme Inc</span>
 						</Link> */}
 						<Link
-							href="/"
-							className="text-foreground transition-colors hover:text-foreground"
-						>
-							Home
-						</Link>
-						<Link
-							href="#"
-							className="text-muted-foreground transition-colors hover:text-foreground"
-						>
-							About
-						</Link>
-						<Link
-							href="#"
+							href="#services"
 							className="text-muted-foreground transition-colors hover:text-foreground"
 						>
 							Our Services
 						</Link>
+						<Link
+							href="#about"
+							className="text-muted-foreground transition-colors hover:text-foreground"
+						>
+							About
+						</Link>
+
 						<Link
 							href="#"
 							className="text-muted-foreground transition-colors hover:text-foreground"
@@ -52,17 +55,19 @@ export function Navbar() {
 						>
 							Conferences
 						</Link>
-						<Link
-							href="#"
-							className="text-muted-foreground transition-colors hover:text-foreground"
-						>
-							Get In Touch
-						</Link>
+						<DialogDemo />
 					</div>
 				</nav>
 				<Sheet>
 					<div className="flex items-center justify-between w-full gap-6 text-lg font-semibold md:text-base md:hidden">
-					<Image src="/images/logog-min.png" alt="logo" width={120} height={120} />
+						<Link href={"/"}>
+							<Image
+								src="/images/logog-min.png"
+								alt="logo"
+								width={120}
+								height={120}
+							/>
+						</Link>
 						<div>
 							<SheetTrigger asChild>
 								<Button
@@ -114,12 +119,7 @@ export function Navbar() {
 							>
 								Conferences
 							</Link>
-							<Link
-								href="#"
-								className="text-muted-foreground hover:text-foreground"
-							>
-								Get In Touch
-							</Link>
+							<DialogDemo />
 						</nav>
 					</SheetContent>
 				</Sheet>

@@ -9,6 +9,8 @@ import {
 } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
+import { Button } from "./button";
+import { DialogDemo } from "../DialogDemo";
 
 export const HeroParallax = ({
 	products,
@@ -104,14 +106,18 @@ export const HeroParallax = ({
 export const Header = () => {
 	return (
 		<div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0 sm:-top-20">
-			<h1 className="text-2xl md:text-7xl font-bold dark:text-white">
-				Award Winning <br /> Marketing Agency
-			</h1>
-			<p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
-				Luna PR is a global marketing and communications agency spanning
-				the world of web3 and emerging tech, including cryptocurrency,
-				blockchain, fintech, NFTs, and gaming.
-			</p>
+			<div className="max-w-7xl absolute z-10 mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0 sm:-top-20">
+				<h1 className="text-2xl md:text-7xl font-bold dark:text-white">
+					Award Winning <br /> Marketing Agency
+				</h1>
+				<p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200 mb-8">
+					Luna PR is a global marketing and communications agency
+					spanning the world of web3 and emerging tech, including
+					cryptocurrency, blockchain, fintech, NFTs, and gaming.
+				</p>
+				{/* <Button className="mt-8 cursor-pointer text-lg py-5 px-4">Contact Us</Button> */}
+				<DialogDemo />
+			</div>
 		</div>
 	);
 };
@@ -139,8 +145,9 @@ export const ProductCard = ({
 			className="group/product h-96 w-[30rem] relative flex-shrink-0"
 		>
 			<Link
-				href={product.link}
-				className="block group-hover/product:shadow-2xl "
+				// href={product.link}
+				href={"/"}
+				className="block group-hover/product:shadow-2xl pointer-events-none -z-10"
 			>
 				<Image
 					src={product.thumbnail}
