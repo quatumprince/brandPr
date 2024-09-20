@@ -7,7 +7,9 @@ const ContactBottom = () => {
 				<h2 className="text-3xl font-bold sm:text-4xl pb-8">
 					Contact Us
 				</h2>
-				<h4 className="w-full sm:w-1/2 mb-3 font-semibold">Ready to Elevate Your Crypto Brand?</h4>
+				<h4 className="w-full sm:w-1/2 mb-3 font-semibold">
+					Ready to Elevate Your Crypto Brand?
+				</h4>
 				<p className="w-full sm:w-1/2">
 					Partner with Brand.PR today and let’s build your brand’s
 					future in the blockchain world.
