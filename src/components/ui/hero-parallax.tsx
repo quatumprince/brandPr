@@ -108,7 +108,7 @@ export const Header = () => {
 		<div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0 sm:-top-20">
 			<div className="max-w-7xl absolute z-10 mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0 sm:-top-25">
 				<h1 className="text-2xl md:text-6xl font-bold sm:w-[60%] dark:text-white">
-					PR AGENCY FOR <br />
+					PR & MARKETING AGENCY FOR <br />
 					<span className="text-blue-600">CRYPTO & BLOCKCHAIN</span>
 				</h1>
 				{/* Space between twop thing */}
