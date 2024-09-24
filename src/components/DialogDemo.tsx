@@ -18,7 +18,7 @@ export function DialogDemo() {
 				asChild
 				className=" cursor-pointer text-lg py-5 px-4 bg-white text-black hover:bg-white/80 hover:text-black"
 			>
-				<Button variant="outline">Get In Touch</Button>
+				<Button variant="outline">Get Started</Button>
 			</DialogTrigger>
 			<DialogContent className="sm:max-w-[425px]">
 				<DialogHeader>

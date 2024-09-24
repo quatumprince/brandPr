@@ -21,7 +21,7 @@ const Award = () => {
 					</div>
 					<div className="w-[16vw] h-auto rounded-sm border border-gray-800 p-4 shadow-xl transition hover:border-blue-500/10 hover:shadow-blue-500/10 ">
 						<Image
-							src={"/awards/award2.svg"}
+							src={"/awards/degensummit.png"}
 							alt="Awards"
 							width={100}
 							height={100}
@@ -30,7 +30,7 @@ const Award = () => {
 					</div>
 					<div className="w-[16vw] h-auto rounded-sm border border-gray-800 p-4 shadow-xl transition hover:border-blue-500/10 hover:shadow-blue-500/10 ">
 						<Image
-							src={"/awards/award2.svg"}
+							src={"/awards/web3carnival.svg"}
 							alt="Awards"
 							width={100}
 							height={100}
@@ -39,7 +39,7 @@ const Award = () => {
 					</div>
 					<div className="w-[16vw] h-auto rounded-sm border border-gray-800 p-4 shadow-xl transition hover:border-blue-500/10 hover:shadow-blue-500/10 ">
 						<Image
-							src={"/awards/award2.svg"}
+							src={"/awards/healerverselogo.png"}
 							alt="Awards"
 							width={100}
 							height={100}

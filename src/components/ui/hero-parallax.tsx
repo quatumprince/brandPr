@@ -108,10 +108,11 @@ export const Header = () => {
 		<div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0 sm:-top-20">
 			<div className="max-w-7xl absolute z-10 mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0 sm:-top-20">
 				<h1 className="text-2xl md:text-7xl font-bold dark:text-white">
-					Brand Pr <br /> Agency
-				</h1>
+					Brand<span className = "text-blue-500">PR</span>
+				</h1> 
+				{/* Space between twop thing */}
 				<p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200 mb-8">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ipsum optio placeat libero incidunt, sed, voluptatum nihil odit sit eveniet qui quae mollitia aliquam ex natus maiores deleniti nesciunt et.
+					Your Strategic Public Relations and Marketing Agency For Boosting Growth.
 				</p>
 				{/* <Button className="mt-8 cursor-pointer text-lg py-5 px-4">Contact Us</Button> */}
 				<DialogDemo />

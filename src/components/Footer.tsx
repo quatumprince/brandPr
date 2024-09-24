@@ -101,7 +101,7 @@ const Footer = () => {
 										className="text-white/60 transition hover:opacity-75"
 									>
 										{" "}
-										Blog{" "}
+										PR Services{" "}
 									</Link>
 								</li>
 								<li>
@@ -110,7 +110,7 @@ const Footer = () => {
 										className="text-white/60 transition hover:opacity-75"
 									>
 										{" "}
-										Blog{" "}
+										Marketing{" "}
 									</Link>
 								</li>
 								<li>
@@ -119,7 +119,7 @@ const Footer = () => {
 										className="text-white/60 transition hover:opacity-75"
 									>
 										{" "}
-										Blog{" "}
+										Development{" "}
 									</Link>
 								</li>
 								<li>
@@ -128,7 +128,7 @@ const Footer = () => {
 										className="text-white/60 transition hover:opacity-75"
 									>
 										{" "}
-										Blog{" "}
+										Event Development{" "}
 									</Link>
 								</li>
 								<li>
@@ -137,7 +137,7 @@ const Footer = () => {
 										className="text-white/60 transition hover:opacity-75"
 									>
 										{" "}
-										Blog{" "}
+										Community Growth{" "}
 									</Link>
 								</li>
 							</ul>
@@ -156,7 +156,7 @@ const Footer = () => {
 										About{" "}
 									</Link>
 								</li>
-								<li>
+								{/* <li>
 									<Link
 										href="#"
 										className="text-white/60 transition hover:opacity-75"
@@ -173,7 +173,7 @@ const Footer = () => {
 										{" "}
 										About{" "}
 									</Link>
-								</li>
+								</li> */}
 							</ul>
 						</div>
 					</div>

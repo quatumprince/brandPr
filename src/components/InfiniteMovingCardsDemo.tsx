@@ -20,28 +20,23 @@ export function InfiniteMovingCardsDemo() {
 
 const testimonials = [
 	{
-		quote: "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-		name: "Charles Dickens",
-		title: "A Tale of Two Cities",
+		quote: "The level of service we received from Brand PR exceeded our expectations. They handled our press releases, media relations, and even a crisis situation with impeccable professionalism. Their public relations services were crucial in maintaining our brand’s image.",
+		name: "David Liu",
+		title: "CEO, ByteQuanta Solutions",
 	},
 	{
-		quote: "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-		name: "William Shakespeare",
-		title: "Hamlet",
+		quote: "The team at Brand PR was instrumental in our successful initial coin offering (ICO) launch. Their expertise in crypto marketing, combined with influencer outreach and media relations, ensured we reached the right audience at the right time. They truly delivered on their promise of visibility and trust within the blockchain community.",
+		name: "John Davies",
+		title: "Founder, TokenShore Network",
 	},
 	{
-		quote: "All that we see or seem is but a dream within a dream.",
-		name: "Edgar Allan Poe",
-		title: "A Dream Within a Dream",
+		quote: "We partnered with Brand PR for a series of high-profile speaking opportunities and events. Their network in the crypto space is unparalleled, and they helped us secure keynote spots at major conferences. The exposure we gained has been invaluable, and our brand is now recognized as a leading player in Web3.",
+		name: "Emily Carter",
+		title: "Marketing Director, BlockGenix Technologies",
 	},
 	{
-		quote: "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-		name: "Jane Austen",
-		title: "Pride and Prejudice",
-	},
-	{
-		quote: "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
-		name: "Herman Melville",
-		title: "Moby-Dick",
+		quote: "Brand PR’s approach to influencer marketing and social media management was exactly what we needed to boost engagement for our P2E gaming platform. The campaigns they ran were data-driven and yielded impressive results. We’ve seen a huge uptick in user engagement and a stronger community presence.",
+		name: "Olivia Martinez",
+		title: "COO, PixelPayouts Games",
 	},
 ];
