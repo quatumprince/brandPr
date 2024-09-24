@@ -2,7 +2,7 @@ import { DialogDemo } from "./DialogDemo";
 
 const ContactBottom = () => {
 	return (
-		<div className="w-full  pt-8 mt-4 bg-[url('/images/bg.jpg')] bg-cover bg-center bg-opacity-30 h-[45vh]">
+		<div className="w-full pt-8 mt-4 bg-[url('/images/bg.jpg')] bg-cover bg-center bg-opacity-30 h-[45vh]">
 			<div className=" mx-auto max-w-screen-xl mt-8 px-4 pb-8 sm:px-6 lg:px-8 ">
 				<h2 className="text-3xl font-bold  sm:text-4xl pb-8">
 					Contact Us Now!

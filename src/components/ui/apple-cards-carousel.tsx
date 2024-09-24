@@ -12,6 +12,7 @@ import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import Image, { ImageProps } from "next/image";
 import { useOutsideClick } from "@/lib/hooks/use-outside-click";
+import { Button } from "./button";
 
 interface CarouselProps {
 	items: JSX.Element[];
@@ -130,7 +131,7 @@ export const Carousel = ({ items, initialScroll = 0 }: CarouselProps) => {
 						))}
 					</div>
 				</div>
-				<div className="flex justify-end gap-2 mr-10">
+				{/* <div className="flex justify-end gap-2 mr-10">
 					<button
 						className="relative z-40 h-10 w-10 rounded-full bg-gray-100 flex items-center justify-center disabled:opacity-50"
 						onClick={scrollLeft}
@@ -145,7 +146,7 @@ export const Carousel = ({ items, initialScroll = 0 }: CarouselProps) => {
 					>
 						<MoveRight className="h-6 w-6 text-gray-500" />
 					</button>
-				</div>
+				</div> */}
 			</div>
 		</CarouselContext.Provider>
 	);
@@ -243,24 +244,29 @@ export const Card = ({
 			<motion.button
 				layoutId={layout ? `card-${card.title}` : undefined}
 				onClick={handleOpen}
-				className="rounded-3xl bg-gray-100 dark:bg-neutral-900 h-80 w-56 md:h-[40rem] md:w-96 overflow-hidden flex flex-col items-start justify-start relative z-10"
+				className="rounded-xl bg-gray-100 dark:bg-neutral-900 h-80 w-56 md:h-[30rem] md:w-64 overflow-hidden flex flex-col items-start justify-start relative z-10"
 			>
-				<div className="absolute h-full top-0 inset-x-0 bg-gradient-to-b from-black/50 via-transparent to-transparent z-30 pointer-events-none" />
-				<div className="relative z-40 p-8">
-					<motion.p
+				<div className="absolute h-full top-0 inset-x-0 bg-gradient-to-b from-black/80 via-transparent to-transparent z-30 pointer-events-none" />
+				<div className="relative z-40 p-8 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+					{/* <motion.p
 						layoutId={
 							layout ? `category-${card.category}` : undefined
 						}
-						className="text-white text-sm md:text-base font-medium font-sans text-left"
+						className="text-white text-sm md:text-base font-medium font-sans text-center"
 					>
 						{card.category}
-					</motion.p>
-					<motion.p
+					</motion.p> */}
+					<motion.div
 						layoutId={layout ? `title-${card.title}` : undefined}
-						className="text-white text-xl md:text-3xl font-semibold max-w-xs text-left [text-wrap:balance] font-sans mt-2"
+						className="text-white text-xl md:text-3xl font-semibold max-w-xs text-center [text-wrap:balance] font-sans mt-2"
 					>
-						{card.title}
-					</motion.p>
+						{card.category}
+					</motion.div>
+					<motion.div
+						className="text-white  text-center  mt-4"
+					>
+						<div className="bg-transparent border border-white text-white hover:bg-white/20 py-2 px-12">Learn More</div>
+					</motion.div>
 				</div>
 				<BlurImage
 					src={card.src}
