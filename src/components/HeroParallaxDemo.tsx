@@ -8,25 +8,25 @@ export function HeroParallaxDemo() {
 }
 export const products = [
 	{
-		title: "Bitcoin",
+		title: "Finbold",
 		link: "#",
-		thumbnail: "/images/Bitcoinc.png",
+		thumbnail: "/images/Finbold.png",
 	},
 	{
-		title: "Coindr",
+		title: "BitcoinNews",
 		link: "#",
-		thumbnail: "/images/Coindr.png",
+		thumbnail: "/images/Bitcoin.png",
 	},
 	{
-		title: "Coinfomania",
+		title: "Coindesk",
 		link: "#",
-		thumbnail: "/images/coinfomania.png",
+		thumbnail: "/images/Coindesk.png",
 	},
 
 	{
-		title: "Cryptwerk",
+		title: "Coin Speaker",
 		link: "#",
-		thumbnail: "/images/Cryptwerk.png",
+		thumbnail: "/images/Coin Speak.png",
 	},
 	{
 		title: "NewsBTC",
@@ -40,19 +40,19 @@ export const products = [
 	},
 
 	{
-		title: "Cryptometer",
+		title: "Digital Coin Price",
 		link: "#",
-		thumbnail: "/images/Cryptometer.png",
+		thumbnail: "/images/Digital Coin.png",
 	},
 	{
-		title: "Feendco",
+		title: "Crypto Politan",
 		link: "#",
-		thumbnail: "/images/feendco.png",
+		thumbnail: "/images/Poltian.png",
 	},
 	{
-		title: "Bitcoinharbar",
+		title: "BlockChain Reporter",
 		link: "#",
-		thumbnail: "/images/Bitcoinharbar.png",
+		thumbnail: "/images/Block Chain.png",
 	},
 	{
 		title: "CoinTurk",

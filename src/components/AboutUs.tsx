@@ -7,29 +7,20 @@ const AboutUs = () => {
 				{/* <h2 className="font-bold text-3xl">About Us</h2> */}
 				<div className="flex flex-col items-center sm:items-start  sm:flex-row gap-10 justify-between mt-4 h-auto">
 					<h5 className="w-full text-center sm:text-start sm:w-[30%] text-2xl font-semibold ">
-						CONNECTING TOMORROW’S TECHNOLOGY WITH TODAY’S AUDIENCE
+					Building Trust and Hype for Web3 and Blockchain Innovations
 					</h5>
 					<div className="w-full sm:w-[50%]">
 						<p className="mb-4 text-lg text-justify">
-							Lorem ipsum dolor sit amet consectetur adipisicing
-							elit. Quia a, laudantium placeat ducimus quas rem
-							dolorum id, dolores alias repellat saepe explicabo
-							magnam fuga assumenda in incidunt voluptatibus
-							accusantium voluptate!
+						Brand PR is a specialized public relations and marketing agency that helps different brands build their communities. We have been serving Web3-based clients globally since 2020. Our crypto and Web3 PR services ensure that your brand's message is heard by the right people at the right time. 
+
 						</p>
 						<p className="text-lg mb-4 text-justify">
-							Lorem ipsum dolor sit amet consectetur adipisicing
-							elit. Quia a, laudantium placeat ducimus quas rem
-							dolorum id, dolores alias repellat saepe explicabo
-							magnam fuga assumenda in incidunt voluptatibus
-							accusantium voluptate!
+						Our team has a proven track record of delivering successful PR campaigns. We offer media coverage on top-tier news sites to ensure your crypto project gets the exposure it deserves. Here, clients get innovative solutions from effective media outreach to community building.  
+
 						</p>
 						<p className="text-lg text-justify">
-							Lorem ipsum dolor sit amet consectetur adipisicing
-							elit. Quia a, laudantium placeat ducimus quas rem
-							dolorum id, dolores alias repellat saepe explicabo
-							magnam fuga assumenda in incidunt voluptatibus
-							accusantium voluptate!
+						Whether you’re launching a new cryptocurrency, a DeFi platform, or an NFT marketplace, our PR strategies are tailored to meet your goals. At Brand PR, we don’t just promote your project—we help you build a legacy.
+
 						</p>
 					</div>
 				</div>
