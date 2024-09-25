@@ -22,7 +22,7 @@ const Award = () => {
 					].map((src, index) => (
 						<div
 							key={index}
-							className="w-full sm:w-[40%] md:w-[20%]
+							className="w-[40%] sm:w-[40%] md:w-[20%]
 							h-full rounded-sm border border-gray-800 p-4 shadow-xl transition hover:border-blue-500/10 hover:shadow-blue-500/10"
 						>
 							<Image
@@ -30,7 +30,7 @@ const Award = () => {
 								alt="Award"
 								width={100}
 								height={100}
-								className="w-full h-[20vh] object-contain"
+								className="w-full h-[10vh]  object-contain"
 							/>
 						</div>
 					))}
