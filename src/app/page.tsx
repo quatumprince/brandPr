@@ -5,6 +5,7 @@ import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo";
 import Award from "@/components/Award";
 import ContactBottom from "@/components/ContactBottom";
 import { AppleCardsCarouselDemo } from "@/components/AppleCardsCarouselDemo";
+import Partners from "@/components/Partners";
 
 export default function Home() {
 	return (
@@ -14,6 +15,7 @@ export default function Home() {
 			<AboutUs />
 			<Award />
 			<ContactBottom />
+			<Partners />
 			<InfiniteMovingCardsDemo />
 		</>
 	);
