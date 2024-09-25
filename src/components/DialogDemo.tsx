@@ -13,6 +13,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { useForm, SubmitHandler } from "react-hook-form";
+import { ChevronRight } from "lucide-react";
 
 interface FormData {
 	name: string;
@@ -66,10 +67,10 @@ export function DialogDemo() {
 		<Dialog open={isOpen} onOpenChange={setIsOpen}>
 			<DialogTrigger
 				asChild
-				className=" cursor-pointer text-lg py-5 px-4 bg-white text-black hover:bg-white/80 hover:text-black"
+				className=" cursor-pointer text-lg py-5  bg-transparent "
 			>
-				<Button variant="outline" onClick={() => setIsOpen(true)}>
-					Get Started
+				<Button variant="line" onClick={() => setIsOpen(true)}>
+					Get Started <ChevronRight className="ml-4 -mr-2"/>
 				</Button>
 			</DialogTrigger>
 			<DialogContent className="sm:max-w-[425px]">
