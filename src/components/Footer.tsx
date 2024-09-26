@@ -1,5 +1,6 @@
 import {
 	Facebook,
+	Instagram,
 	Linkedin,
 	Locate,
 	LocateFixedIcon,
@@ -49,7 +50,7 @@ const Footer = () => {
 						<ul className="mt-8 flex gap-6">
 							<li>
 								<Link
-									href="#"
+									href="https://www.facebook.com/BrandPR.io/"
 									rel="noreferrer"
 									target="_blank"
 									className="text-white/60 transition hover:opacity-75"
@@ -59,7 +60,7 @@ const Footer = () => {
 							</li>
 							<li>
 								<Link
-									href="#"
+									href="https://www.linkedin.com/company/brandpr-io/"
 									rel="noreferrer"
 									target="_blank"
 									className="text-white/60 transition hover:opacity-75"
@@ -69,7 +70,7 @@ const Footer = () => {
 							</li>
 							<li>
 								<Link
-									href="#"
+									href="https://x.com/BrandPR_io"
 									rel="noreferrer"
 									target="_blank"
 									className="text-white/60 transition hover:opacity-75"
@@ -79,12 +80,12 @@ const Footer = () => {
 							</li>
 							<li>
 								<Link
-									href="#"
+									href="https://www.instagram.com/brandpr.io/"
 									rel="noreferrer"
 									target="_blank"
 									className="text-white/60 transition hover:opacity-75"
 								>
-									<Facebook />
+									<Instagram />
 								</Link>
 							</li>
 						</ul>
@@ -154,6 +155,42 @@ const Footer = () => {
 									>
 										{" "}
 										About{" "}
+									</Link>
+								</li>
+								<li>
+									<Link
+										href="#"
+										className="text-white/60 transition hover:opacity-75"
+									>
+										{" "}
+										Contact{" "}
+									</Link>
+								</li>
+								<li>
+									<Link
+										href="#"
+										className="text-white/60 transition hover:opacity-75"
+									>
+										{" "}
+										Events{" "}
+									</Link>
+								</li>
+								<li>
+									<Link
+										href="#"
+										className="text-white/60 transition hover:opacity-75"
+									>
+										{" "}
+										Partners{" "}
+									</Link>
+								</li>
+								<li>
+									<Link
+										href="#"
+										className="text-white/60 transition hover:opacity-75"
+									>
+										{" "}
+										Blogs{" "}
 									</Link>
 								</li>
 								{/* <li>

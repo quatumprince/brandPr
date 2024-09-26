@@ -13,6 +13,10 @@ export function AppleCardsCarouselDemo() {
 			<h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold  text-neutral-200 font-sans">
 				Our Services
 			</h2>
+			<h4 className="max-w-7xl pl-4 mx-auto text-xl md:text-1xl   text-neutral-100 font-sans">
+			Brand PR offers comprehensive services designed to elevate your brand in the Web3space. These services are suitable for a wide range of clients:
+			</h4>
+			
 			<Carousel items={cards} />
 		</div>
 	);
@@ -29,7 +33,7 @@ const DummyContent = () => {
 					>
 						<p className="text-neutral-600 text-base md:text-2xl font-sans max-w-3xl mx-auto">
 							<span className="font-bold text-neutral-700">
-								Product Managment:
+							Press Releases :
 							</span>{" "}
 							{data.data}
 						</p>
@@ -49,8 +53,8 @@ const DummyContent = () => {
 
 const data = [
 	{
-		category: "PR Services",
-		title: "Enhance your productivity.",
+		category: "Public Relations",
+		title: "Public Relations.",
 		src: "/images/prservice.webp",
 		content: <DummyContent />,
 	},
@@ -95,7 +99,8 @@ const data = [
 const data2 = [
 	{
 		category: "Artificial Intelligence",
-		data: "We are a team of product managers who are passionate about the product development and management. We work with our clients to understand their needs and goals, and then we create a product roadmap that aligns with those needs and goals. We also work with",
+		data: "Brand PR specializes in crafting and distributing compelling press releases to showcase your crypto, blockchain, or Web3 project’s milestones, announcements, and achievements.",
+		
 	},
 	{
 		category: "Productivity",
