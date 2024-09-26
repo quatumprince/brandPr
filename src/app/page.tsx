@@ -13,11 +13,11 @@ export default function Home() {
 		<>
 			<HeroParallax products={products} />
 			<AppleCardsCarouselDemo />
+			<Partners />
 			<InfiniteMovingPartnersDemo />
 			<AboutUs />
 			<Award />
 			<ContactBottom />
-			<Partners />
 			<InfiniteMovingCardsDemo />
 		</>
 	);
