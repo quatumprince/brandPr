@@ -262,10 +262,10 @@ export const Card = ({
 					>
 						{card.category}
 					</motion.div>
-					<motion.div
-						className="text-white  text-center  mt-4"
-					>
-						<div className="bg-transparent border border-white text-white hover:bg-white/20 py-2 px-12">Learn More</div>
+					<motion.div className="text-white  text-center  mt-4">
+						<div className="bg-transparent border border-white text-white hover:bg-white/20 py-2 px-12">
+							Learn More
+						</div>
 					</motion.div>
 				</div>
 				<BlurImage

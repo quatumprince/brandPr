@@ -23,7 +23,7 @@ const Award = () => {
 						<div
 							key={index}
 							className="w-[40%] sm:w-[40%] md:w-[20%]
-							h-full rounded-sm border border-gray-800 p-4 shadow-xl transition hover:border-blue-500/10 hover:shadow-blue-500/10"
+							h-full rounded-sm  border-gray-800 p-4 shadow-xl transition hover:border-blue-500/10 hover:shadow-blue-500/10"
 						>
 							<Image
 								src={src}
