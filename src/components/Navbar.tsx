@@ -16,9 +16,11 @@ export function Navbar() {
 				<nav className="hidden flex-col gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-6 max-w-7xl mx-auto justify-between w-full">
 					<Link href={"/"}>
 						<Image
-							src="/images/logog-min.png"
+							src="/images/brandprlogo.jpg"
 							alt="logo"
-							width={120}
+							width={160
+								
+							}
 							height={120}
 						/>
 					</Link>

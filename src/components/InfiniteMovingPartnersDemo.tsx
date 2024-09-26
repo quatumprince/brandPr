@@ -77,5 +77,18 @@ const testimonials3 = [
 	},
 	{
 		image: "/partners/UTB.png",
+		
 	},
+	{
+		image: "/partners/ap.png",
+	},
+	{
+		image: "/partners/ap.png",
+	},
+	{
+		image: "/partners/ap.png",
+	},
+	{
+		image: "/partners/ap.png",
+	}
 ];
