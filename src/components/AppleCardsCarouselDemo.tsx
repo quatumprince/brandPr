@@ -13,7 +13,7 @@ export function AppleCardsCarouselDemo() {
 			<h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold  text-neutral-200 font-sans">
 				Our Services
 			</h2>
-			<h4 className="max-w-7xl pl-4 mx-auto text-xl md:text-1xl   text-neutral-100 font-sans">
+			<h4 className="max-w-7xl pl-4 pt-8 mx-auto text-xl md:text-1xl   text-neutral-100 ">
 				Brand PR offers comprehensive services designed to elevate your
 				brand in the Web3space. These services are suitable for a wide
 				range of clients:
