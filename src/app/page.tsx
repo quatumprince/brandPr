@@ -6,12 +6,14 @@ import Award from "@/components/Award";
 import ContactBottom from "@/components/ContactBottom";
 import { AppleCardsCarouselDemo } from "@/components/AppleCardsCarouselDemo";
 import Partners from "@/components/Partners";
+import { InfiniteMovingPartnersDemo } from "@/components/InfiniteMovingPartnersDemo";
 
 export default function Home() {
 	return (
 		<>
 			<HeroParallax products={products} />
 			<AppleCardsCarouselDemo />
+			<InfiniteMovingPartnersDemo />
 			<AboutUs />
 			<Award />
 			<ContactBottom />
