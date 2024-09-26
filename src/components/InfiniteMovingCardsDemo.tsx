@@ -5,7 +5,7 @@ import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 
 export function InfiniteMovingCardsDemo() {
 	return (
-		<div className="w-[84%] mx-auto py-20">
+		<div className="w-[84%] mx-auto pt-20 pb-8">
 			<h2 className="font-bold text-3xl">What People Say</h2>
 			<div className="h-[26rem] bg-background rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden">
 				<InfiniteMovingCards
