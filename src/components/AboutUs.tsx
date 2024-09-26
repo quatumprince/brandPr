@@ -11,7 +11,7 @@ const AboutUs = () => {
 					</h5>
 					<div className="w-full sm:w-[50%]">
 						<p className="mb-4 text-lg text-justify">
-						Brand PR is a specialized public relations and marketing agency that helps different brands build their communities. We have been serving Web3-based clients globally since 2020. Our crypto and Web3 PR services ensure that your brand's message is heard by the right people at the right time. 
+						Brand PR is a specialized public relations and marketing agency that helps different brands build their communities. We have been serving Web3-based clients globally since 2020. Our crypto and Web3 PR services ensure that your brand&rsquo;s message is heard by the right people at the right time. 
 
 						</p>
 						<p className="text-lg mb-4 text-justify">
@@ -19,7 +19,7 @@ const AboutUs = () => {
 
 						</p>
 						<p className="text-lg text-justify">
-						Whether you’re launching a new cryptocurrency, a DeFi platform, or an NFT marketplace, our PR strategies are tailored to meet your goals. At Brand PR, we don’t just promote your project—we help you build a legacy.
+						Whether you&aposre launching a new cryptocurrency, a DeFi platform, or an NFT marketplace, our PR strategies are tailored to meet your goals. At Brand PR, we don&apost just promote your project&lsquowe help you build a legacy.
 
 						</p>
 					</div>
