@@ -44,13 +44,43 @@ const testimonials1 = [
 	{
 		image: "/partners/UTB.png",
 	},
-];
-const testimonials2 = [
+	{
+		image: "/partners/siam.png",
+	},
+	{
+		image: "/partners/the block.png",
+	},
 	{
 		image: "/partners/ap.png",
 	},
 	{
 		image: "/partners/ap.png",
+	},
+	{
+		image: "/partners/UTB.png",
+	},
+];
+const testimonials2 = [
+	{
+		image: "/partners/siam.png",
+	},
+	{
+		image: "/partners/the block.png",
+	},
+	{
+		image: "/partners/ap.png",
+	},
+	{
+		image: "/partners/ap.png",
+	},
+	{
+		image: "/partners/UTB.png",
+	},
+	{
+		image: "/partners/siam.png",
+	},
+	{
+		image: "/partners/the block.png",
 	},
 	{
 		image: "/partners/ap.png",
@@ -64,10 +94,10 @@ const testimonials2 = [
 ];
 const testimonials3 = [
 	{
-		image: "/partners/ap.png",
+		image: "/partners/siam.png",
 	},
 	{
-		image: "/partners/ap.png",
+		image: "/partners/the block.png",
 	},
 	{
 		image: "/partners/ap.png",
@@ -77,7 +107,12 @@ const testimonials3 = [
 	},
 	{
 		image: "/partners/UTB.png",
-		
+	},
+	{
+		image: "/partners/siam.png",
+	},
+	{
+		image: "/partners/the block.png",
 	},
 	{
 		image: "/partners/ap.png",
@@ -86,9 +121,6 @@ const testimonials3 = [
 		image: "/partners/ap.png",
 	},
 	{
-		image: "/partners/ap.png",
+		image: "/partners/UTB.png",
 	},
-	{
-		image: "/partners/ap.png",
-	}
 ];

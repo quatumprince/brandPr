@@ -8,7 +8,7 @@ export const InfiniteMovingPartners = ({
 	items,
 	direction = "left",
 	speed = "fast",
-	pauseOnHover = true,
+	pauseOnHover = false,
 	className,
 }: {
 	items: {
