@@ -20,7 +20,6 @@ const AboutUs = () => {
 						</p>
 						<p className="text-lg text-justify">
 						Whether you&aposre launching a new cryptocurrency, a DeFi platform, or an NFT marketplace, our PR strategies are tailored to meet your goals. At Brand PR, we don&apost just promote your project&lsquowe help you build a legacy.
-
 						</p>
 					</div>
 				</div>
