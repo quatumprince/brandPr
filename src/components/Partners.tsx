@@ -5,7 +5,7 @@ const 	Partners = () => {
 	return (
 		<section className="bg-background text-white mt-4">
 			<div className="mx-auto w-[85%] px-4 pb-8 sm:px-6 lg:px-8">
-				<h2 className="text-3xl font-bold sm:text-4xl pb-8">
+				<h2 className="text-3xl text-secondaryColor font-bold sm:text-4xl pb-8">
 					Partners
 				</h2>
 

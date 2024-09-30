@@ -7,7 +7,7 @@ export function InfiniteMovingPartnersDemo() {
 	return (
 		<div className="w-full mx-auto pt-12">
 			<div className="w-[80%] mx-auto">
-				<h2 className="font-bold text-3xl pb-10 ">Media Partners</h2>
+				<h2 className="font-bold text-3xl pb-10 text-secondaryColor">Media Partners</h2>
 			</div>
 			<div className="h-[20rem] bg-background  flex flex-col antialiased items-center justify-start relative overflow">
 				<InfiniteMovingPartners

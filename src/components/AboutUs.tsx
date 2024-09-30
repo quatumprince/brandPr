@@ -6,7 +6,7 @@ const AboutUs = () => {
 			<div className="w-[84%] mx-auto py-12">
 				{/* <h2 className="font-bold text-3xl">About Us</h2> */}
 				<div className="flex flex-col items-center sm:items-start  sm:flex-row gap-10 justify-between mt-4 h-auto">
-					<h5 className="w-full text-center sm:text-start sm:w-[30%] text-2xl font-semibold ">
+					<h5 className="w-full text-center sm:text-start sm:w-[30%] text-2xl font-semibold text-secondaryColor">
 					Building Trust and Hype for Web3 and Blockchain Innovations
 					</h5>
 					<div className="w-full sm:w-[50%]">

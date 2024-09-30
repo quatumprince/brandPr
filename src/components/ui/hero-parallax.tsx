@@ -109,19 +109,19 @@ export const Header = () => {
 			<div className="max-w-7xl absolute z-10 mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0 sm:-top-25">
 				<h1 className="text-2xl md:text-6xl font-bold sm:w-[60%] dark:text-white">
 					PR & MARKETING <br /> AGENCY FOR <br />
-					<span className="text-blue-600">CRYPTO & BLOCKCHAIN</span>
+					<span className="text-secondaryColor">
+						CRYPTO & BLOCKCHAIN
+					</span>
 				</h1>
 				{/* Space between twop thing */}
 				<p className="max-w-2xl text-base md:text-xl mt-7 dark:text-neutral-200 mb-8 ml-2">
-					BrandPR is your gateway to boosting visibility,
-					credibility, and growth in the world of crypto and
-					blockchain.
+					BrandPR is your gateway to boosting visibility, credibility,
+					and growth in the world of crypto and blockchain.
 				</p>
 				{/* <Button className="mt-8 cursor-pointer text-lg py-5 px-4">Contact Us</Button> */}
 				<div className="ml-2">
 					<DialogDemo />
 				</div>
-				
 			</div>
 		</div>
 	);
