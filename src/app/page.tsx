@@ -10,7 +10,7 @@ import { InfiniteMovingPartnersDemo } from "@/components/InfiniteMovingPartnersD
 
 export default function Home() {
 	return (
-		<>
+		<div>
 			<HeroParallax products={products} />
 			<AppleCardsCarouselDemo />
 			<Partners />
@@ -19,6 +19,6 @@ export default function Home() {
 			<Award />
 			<ContactBottom />
 			<InfiniteMovingCardsDemo />
-		</>
+		</div>
 	);
 }

@@ -18,9 +18,7 @@ export function Navbar() {
 						<Image
 							src="/images/brandprlogo.jpg"
 							alt="logo"
-							width={160
-								
-							}
+							width={160}
 							height={120}
 						/>
 					</Link>
@@ -34,26 +32,27 @@ export function Navbar() {
 						</Link> */}
 						<Link
 							href="#services"
-							className="text-muted-foreground transition-colors hover:text-foreground"
+							className="text-muted-foreground transition-colors hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-[#fa0297] to-[#8a0e7d]"
 						>
 							Our Services
 						</Link>
+
 						<Link
 							href="#about"
-							className="text-muted-foreground transition-colors hover:text-foreground"
+							className="text-muted-foreground transition-colors hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-[#fa0297] to-[#8a0e7d]"
 						>
 							About
 						</Link>
 
 						<Link
 							href="#"
-							className="text-muted-foreground transition-colors hover:text-foreground"
+							className="text-muted-foreground transition-colors hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-[#fa0297] to-[#8a0e7d]"
 						>
 							Blogs
 						</Link>
 						<Link
 							href="#"
-							className="text-muted-foreground transition-colors hover:text-foreground"
+							className="text-muted-foreground transition-colors hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-[#fa0297] to-[#8a0e7d]"
 						>
 							Conferences
 						</Link>
@@ -94,7 +93,7 @@ export function Navbar() {
 								<Package2 className="h-6 w-6" />
 								<span className="sr-only">Acme Inc</span>
 							</Link> */}
-							<Link href="#" className="hover:text-foreground">
+							<Link href="#" className="text-muted-foreground transition-colors hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-[#fa0297] to-[#8a0e7d]">
 								Home
 							</Link>
 							<Link
@@ -105,19 +104,19 @@ export function Navbar() {
 							</Link>
 							<Link
 								href="#"
-								className="text-muted-foreground hover:text-foreground"
+								className="text-muted-foreground transition-colors hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-[#fa0297] to-[#8a0e7d]"
 							>
 								Our Services
 							</Link>
 							<Link
 								href="#"
-								className="text-muted-foreground hover:text-foreground"
+								className="text-muted-foreground transition-colors hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-[#fa0297] to-[#8a0e7d]"
 							>
 								Blogs
 							</Link>
 							<Link
 								href="#"
-								className="text-muted-foreground hover:text-foreground"
+								className="text-muted-foreground transition-colors hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-[#fa0297] to-[#8a0e7d]"
 							>
 								Conferences
 							</Link>

@@ -109,7 +109,7 @@ export const Header = () => {
 			<div className="max-w-7xl absolute z-10 mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0 sm:-top-25">
 				<h1 className="text-2xl md:text-6xl font-bold sm:w-[60%] dark:text-white">
 					PR & MARKETING <br /> AGENCY FOR <br />
-					<span className="text-secondaryColor">
+					<span className="bg-gradient-to-r from-[#fa0297] to-[#8a0e7d] bg-clip-text text-transparent">
 						CRYPTO & BLOCKCHAIN
 					</span>
 				</h1>
