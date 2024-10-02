@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 		template: "%s | BrandPR.io",
 	},
 	description:
-		"Brand PR is an Industry-Leading Public Relations & Marketing Agency. It is your gateway to boosting visibility, credibility, and growth in the world of crypto and blockchain. We combine innovative marketing with cutting-edge PR strategies tailored for the decentralized future.",
+		"Brand PR is an Industry-Leading Public Relations & Marketing Agency. It is your gateway to boosting visibility, credibility, and growth in the world of crypto and blockchain. We combine innovative marketing with cutting-edge PR strategies tailored for the decentralized future. ",
 	keywords:
 		"Brand PR, Public Relations, Marketing Agency, Crypto PR, Blockchain Marketing, Crypto Public Relations, Blockchain PR, Decentralized Marketing, PR Strategies, Visibility Boost, Credibility Building, Growth in Crypto, Innovative Marketing, Blockchain Growth, Cutting-edge PR",
 };
